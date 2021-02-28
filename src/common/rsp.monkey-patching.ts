@@ -30,4 +30,5 @@ try {
     assert.strictEqual(err.expected, p2);
 }
 
+//cleanup
 utils.getResult = originalResult;

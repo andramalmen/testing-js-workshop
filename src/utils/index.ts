@@ -27,4 +27,6 @@ export const getResult = (p1: Player, p2: Player) => {
     return winner;
 };
 
-export default { getResult };
+const utils = { getResult };
+
+export default utils;
